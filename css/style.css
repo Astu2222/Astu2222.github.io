@@ -1,0 +1,1008 @@
+* {
+box-sizing: border-box;
+padding: 0%;
+margin: 0%;
+}
+
+section.articles-people i.fa-ellipsis{
+display: none;
+}
+
+body{
+background-image: url('../imagenes/bg-tablet-pattern.svg') ; 
+background-position: right top;
+background-repeat: no-repeat;   
+font-family: 'Be Vietnam Pro', sans-serif;
+font-size: 16px;
+
+}
+
+header nav i.fa-solid{
+    display:none;
+}
+
+header nav {
+    padding-top: 65px;
+    padding-bottom: 105px;
+    max-width: 1110px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+
+.logo-business{
+
+width: 145.54px;
+height: 23.74px;
+
+}
+
+/* tamaño de las imagenes "image-radio" */
+
+.image-radio{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+
+/**/
+
+
+
+
+
+
+/* div Information*/
+
+inside-info {
+
+    width: 553px;
+    height: 158px;
+
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+}
+
+ul.menu li {
+    margin-right: 28px;
+}
+
+ul.menu li a {
+    color: #242E52;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+button {
+    height: 44px;
+    width: 134px;
+    background-color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    font-size: 13.1806px;
+    line-height: 19px;
+}
+
+section.secondary div.about p {
+
+    width: 337px;
+    height: 88px;
+
+}
+
+
+
+/* Estilo general de las fuentes*/
+
+h6,h5,h4,h3,h2{
+
+margin: 0;
+
+}
+
+a{
+    text-decoration:none;
+    
+}
+
+
+h6{
+font-family: 'Be Vietnam Pro', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16.0714px;
+}
+
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Inicio Seccion Principal*/
+
+
+section.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 99px;
+    max-width: 1110px;
+}
+
+section.principal h1 {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+    color: #232C50;
+    margin-bottom: 28px;
+}
+
+section.principal article.inicio {
+
+    width: 50%;
+}
+
+section.principal article.inicio-v2 {
+
+    width: 50%;
+}
+
+
+section.principal article.inicio p {
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 26px;
+    width: 355px;
+    height: 71px;
+    margin-bottom: 28px;    
+}
+
+
+/*INICIO DE SECCION SECUNDARIA*/
+
+
+
+section.secondary {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 132.5px;
+    max-width: 1110px;
+}
+
+section.secondary div.order-items{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section.secondary h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #232851;
+    margin-bottom: 36px;
+}
+
+section.secondary p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+section.secondary ol {
+    width: 50%;
+}
+
+section.secondary ol h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #323851;
+    
+}
+
+
+
+section.secondary ol p {
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    color: #B3B2B7;
+    width: 100%;
+}
+
+section.secondary div.about{
+
+    width: 50%;
+}
+
+section.secondary div.order-items{
+    width: 50%;
+}
+
+
+/* 1 2 y 3 spans y orden*/
+
+.title-article-list {
+    display: flex;
+    align-items: center;
+}
+
+.specific{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+    height: 153px;
+    position: relative;
+    width: 100%;
+    padding-left: 4.2rem;
+    margin-top: 13px;
+}
+
+.number{
+
+    padding: 10px 25px;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 35%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 69px;
+    height: 43px;
+    margin-right: 20px;
+    background: #F3603B;
+    border-radius: 30px;
+}
+
+div.order-items article.items-numbers div.art p{
+    width: 392px;
+    height: 104px;
+    padding-left: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #B3B2B7;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.articulos article .texart{
+    display: flex;
+    align-items: center;
+}
+
+/*article class contenedor de numeros 1,2 y 3 */
+
+section.secondary div.order-items article.items-numbers div.art h4{
+
+margin-bottom: 18px;
+
+}
+
+article.items-numbers{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Primer parte del Footer */
+
+
+section.end-visualization {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../imagenes/bg-simplify-section-desktop.svg') ;
+    background-position: bottom left;
+    background-repeat: no-repeat;    
+    max-width: 1110px;
+}
+
+.end-text {
+
+width: 438px;
+height: 96px;
+color: #FFFFFF;
+font-family: 'Be Vietnam Pro', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+}
+
+
+/* Clase iconos mas hover */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+}
+
+ul.menu li {
+    margin-right: 28px;
+}
+
+ul.menu li a {
+    color: #242E52;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+/*Inicio de edicion footer Desktop - About-footer*/
+
+
+.cms-order{
+    display: flex;
+}
+
+
+.about-footer{
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 67px;
+    width: 100%;
+}
+
+.about-footer-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.end-visualization {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    height: 224px;
+    max-width: 1110px;
+}
+
+
+.end-visualization-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imagenes/bg-simplify-section-desktop.svg') ;
+    background-position: bottom left;
+    background-repeat: no-repeat;    
+    background-color: #F3613C;
+}
+
+
+.end-text {
+    width: 438px;
+    height: 96px;
+    color: #FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.button-send {
+
+    background-color: #FFFFFF;
+    color: #F3603B;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+    
+}
+
+/* Inicio Seccion articles-people*/
+
+section.articles-people {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 180px;
+    justify-content: space-around;
+
+}
+
+.container-space2{
+    margin: 0px 10px;
+}
+
+.container-space, .container-space2{
+    box-sizing: border-box;
+    height: 220px;
+    width: 445px;
+    background-color: #FAFAFA;
+    
+}
+
+section.articles-people div.container-articles {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section.articles-people h2.ad-text{
+
+margin-bottom: 109px;
+
+}
+
+section.articles-people h2 {
+
+font-weight: 700;
+font-size: 39.2143px;
+line-height: 61px;
+
+}
+
+section.articles-people div.container-articles article {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+    
+
+}
+
+section.articles-people div.container-articles div.container-space h6, section.articles-people div.container-articles div.container-space2 h6{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 21px;
+
+}
+
+section.articles-people div.container-articles div.container-space p, section.articles-people div.container-articles div.container-space2 p{
+    width: 390px;
+height: 78px;
+left: 0px;
+top: 137px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 156.6%;
+/* or 25px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #B9B9C1;
+
+}
+
+
+
+div.container-articles article p.information-people  {
+
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #B9B9C1;
+
+}
+
+nav div.social-icons ul li{
+
+    display: inline;
+
+}
+
+div.social-icons{
+    margin-top: 20px;
+    font-size: 42px;
+}
+
+
+
+
+
+
+
+
+/*Inicio de edicion footer Desktop - About-footer*/
+
+
+
+.about-footer-background {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E26;
+    height: 247px;
+    justify-content: center;
+
+}
+
+nav.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+nav.cms-links ul li,nav.cms-links2 ul li {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 12px;
+}
+
+nav.cms-links ul li:last-child, nav.cms-links2 ul li:last-child{
+    margin-bottom: 0;
+}
+
+nav.cms-links ul li a, nav.cms-links2 ul li a{
+    color: #ffffff;
+}
+nav.cms-links ul li a:hover, nav.cms-links2 ul li a:hover{
+    color: rgba(243, 96, 59, 1);
+    ;
+}
+
+.cms-links2{
+    margin-right: 219px;
+    margin-left: 100px;
+}
+
+form input {
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 9px;
+}
+
+p.copyright {
+    width: 100%;
+    text-align: end;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    color: #8C8C94;
+}
+
+/* Clase iconos mas hover */
+
+i{
+    color: #FFFFFF;
+    height: 20px;
+    width: 13px;
+    position: relative;
+}
+
+i:hover{
+    color: #F3603B;
+    height: 20px;
+    width: 13px;
+}
+
+.fa-facebook-square:before, .fa-youtube-square:before, .fa-twitter-square:before, .fa-pinterest:before, .fa-instagram:before {
+    font-size: 25px;
+    display: inline;
+}
+
+
+
+li{
+    list-style:none;
+    margin-right: 15px;
+}
+
+p.copyright{
+
+    max-width: 1110px;
+    margin-bottom: 53px;
+}
+
+button.submit{
+    width: 63px;
+    height: 42px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+
+
+@media (max-width: 400px) {
+
+    *{
+        max-width: 375px;
+        margin: 0%;
+        border: #F3603B 2px;
+    }
+
+    div.order-items article.items-numbers div.art p{
+        width: 100%;
+        margin: 20px 0;
+
+    }
+
+    .order-items {
+        padding: 0 16px;
+    }
+    
+    .art {
+      padding: 0;
+    }
+    
+    section.secondary div.order-items{
+        width: 100%;
+    }
+    
+    /*ocultar menu navegacion*/
+    ul.menu {
+        display: none;
+    }
+
+    /*ocultar boton navegacion*/
+    nav>button{
+        display: none;
+    }
+
+    /*Seccion principal columna*/
+    section.principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*ordenar abajo articulo inicio // margenes*/
+    section.principal article.inicio {
+    order: 1;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    /*ordenar h1 section principal*/
+    section.principal h1 {
+        font-weight: 700;
+        font-size: 39px;
+        color: #232C50;
+    }
+
+    /*ordenar p section principal */
+
+    section.principal article.inicio p{
+        width: 80%;
+        height: 80%;
+    }
+
+    /*redimenzionar div articulo inicio v2*/
+    section.principal article.inicio-v2 {
+       width: 100% ; 
+    }
+
+    /*redimenzionar imagen articulo inicio v2*/
+    .illustration-size{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    /*Seccion Secondary*/
+
+    /*Flex para ordenar seccion 2*/
+    section.secondary {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    /*seccion 1 de section 2*/
+    section.secondary div.about {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.secondary h2 {
+        font-weight: 700;
+        font-size: 32px;
+        width: 70%;
+        height: 100%;
+        line-height: 41px;
+        color: #232851;
+        margin-bottom: 36px;}
+
+    section.secondary div.about p {
+            width: 337px;
+            height: 88px;
+            text-align: center;
+            margin-bottom: 50px;
+    }
+
+    /*seccion 2 de section 2*/
+/*
+    article.items-numbers{
+        display: flex;
+        width: 100px;
+        width: 30px;
+        margin-bottom: 27px;
+    }
+
+    
+    div.order-items article.items-numbers div.art p {
+        position: relative;
+        right: 91px;
+        width: 345px;
+        height: 38%;
+        font-size: 14px;
+        top: 0;
+        margin: 20px;
+        
+    }
+    */
+
+  
+    
+    /* div.number{
+        margin-left: 10px;
+        margin-top: 10px;
+    } */
+
+    /*Propiedades de Main*/
+
+    section.secondary{
+        margin: 0%;
+    }
+
+    /*Inicio Seccion Articles-people*/
+
+    section.articles-people h2.ad-text{
+        margin-top: 60px;
+        margin-bottom: 50px;
+        font-size: 35px;
+    }
+
+
+    div.container-space{
+        display: none;
+    }
+
+    /*icono slider*/
+
+
+    section.articles-people i.fa-ellipsis{
+
+        font-size: 40px;
+        color: #F3603B;
+        border: #FAFAFA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        
+        
+    }
+
+    /*Inicio Edicion Footer*/
+
+    .end-visualization{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .end-text {
+        width: 438px;
+        height: 96px;
+        color: #FFFFFF;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight: 700;
+        font-size: 43px;
+        max-width: 375px;
+
+    }
+
+    .end-visualization-background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../imagenes/bg-simplify-section-desktop.svg);
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-color: #F3613C;
+        width: 100%;
+        height: 500px;
+    }
+
+
+
+    section.articles-people div.container-articles div.container-space p, section.articles-people div.container-articles div.container-space2 p {
+        width: 349px;
+    }
+
+   
+    .container-space, .container-space2 {
+        box-sizing: border-box;
+        height: 220px;
+        background-color: #FAFAFA;
+    }
+
+    section.articles-people div.container-articles {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    /*footer segunda parte*/
+
+    .about-footer {
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    form input {
+        width: 265px;
+    }
+
+    form {
+        text-align: center;
+        order: -4;
+        margin-bottom: 60px;
+    }
+
+    .cms-links2{
+        margin-right: 60px;
+        margin-left: 0;
+    }
+
+    .container-space2{
+        margin: 0%;
+    }
+
+    section.articles-people {
+
+        margin-bottom: 80px;
+        text-align: center;
+   
+    }
+
+    /*Header mobile*/
+
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        width: 90%;
+        height: 90%;   
+    }
+
+    header nav i.fa-solid {
+        display: block;
+        font-size: 26px;
+        color: #1E1E26;
+    }
+
+    header nav{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: -30px;
+        margin-bottom: -60px;
+    }
+
+    .cms-order{
+        order: -3;
+        display: flex;
+    }
+
+    div.size-logo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-footer-background{
+        height: 100%;
+    }
+
+    div.size-logo div.social-icons ul{
+    margin: 40px; 
+       
+    }
+    .manage{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    p.copyright {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .title-article-list h4 {
+            text-align: center;
+            background-color: rgba(247, 175, 130, 0.33);
+            width: 320px;
+            padding: 10px 0;
+            z-index: -1;
+            margin-left: -10px;
+            margin-right: -16px;
+
+    }
+
+    .number {
+        margin-right: 0;
+    }
+
+    }
