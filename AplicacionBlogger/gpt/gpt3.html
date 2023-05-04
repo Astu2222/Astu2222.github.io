@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Generador de texto con GPT-3</title>
+  <style>
+    /* estilo para el botón */
+    button {
+      padding: 10px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Generador de texto con GPT-3</h1>
+  <p>Introduce una frase para que GPT-3 la complete:</p>
+  <input type="text" id="input-text">
+  <button id="generate-btn">Generar</button>
+  <br>
+  <br>
+  <p>Respuesta:</p>
+  <p id="output-text"></p>
+  
+  <script src="gpt3.js"></script>
+</body>
+</html>
